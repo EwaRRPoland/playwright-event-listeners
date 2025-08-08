@@ -1,0 +1,23 @@
+{
+  "name": "playwright-event-listeners",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EwaRRPoland/playwright-event-listeners.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/EwaRRPoland/playwright-event-listeners/issues"
+  },
+  "homepage": "https://github.com/EwaRRPoland/playwright-event-listeners#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.0"
+  }
+}

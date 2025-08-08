@@ -1,0 +1,18 @@
+import { expect } from "@playwright/test";
+import { test } from "./3-fixture";
+
+test("view restaurant details", async ({ page }) => {
+  // Arrange:
+  const restaurantCard = page.getByTestId("restaurant-card-1");
+  const popupContent = page.locator("#popupContent");
+
+  await page.goto("/practice/restaurant-order.html");
+
+  // Act:
+  await restaurantCard.click();
+
+  // Assert:
+  // Simple check that the order was added to the list
+  await expect(popupContent).toContainText("📊 Restaurant Statistics");
+  // In real tests, you would check more specific details of the order!
+});
