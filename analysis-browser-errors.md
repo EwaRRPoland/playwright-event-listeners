@@ -33,7 +33,4 @@
 
 ### ✅ Suggested Fixes
 
-- **Fix restaurant ID passing** in `showRestaurantDetails(id)`:
-  ```html
-  <div onclick="showRestaurantDetails(5)">...</div>
-  ```
+- **better value handling on the backend**

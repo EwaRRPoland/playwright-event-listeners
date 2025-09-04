@@ -33,7 +33,4 @@
 
 ### ✅ Suggested Fixes
 
-- **Popraw przekazywanie ID restauracji** w funkcji `showRestaurantDetails(id)`:
-  ```html
-  <div onclick="showRestaurantDetails(5)">...</div>
-  ```
+- **Lepsze obsługiwanie wartości na backendzie**
